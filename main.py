@@ -5,7 +5,7 @@ with open('token.txt', 'r') as f:
  TOKEN = f.read()
 
 def start(update, context):
-    update.message.reply_text("Hello Bro.\nI am Bypass Bot. Made with Love By \nAnurag's Bot👉 @AM_ROBOTS @sources_cods")
+    update.message.reply_text("Hello Dear.\nI am Link Bypass Bot. Made with Love By👉 @mdisk_bots")
     
 def help(update, context):
    update.message.reply_text("""
@@ -83,7 +83,7 @@ def lv(update, context):
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
-updater = telegram.ext.Updater(6270814528:AAGdGxmme27mgaYuCUx1F1BV67JRmkLtf_k, use_context=True)
+updater = telegram.ext.Updater("6177013159:AAEt4j026DhXhGEbbxddAh04DPzMw-ESHII" use_context=True)
 disp = updater.dispatcher
 disp.add_handler(telegram.ext.CommandHandler("start", start))
 disp.add_handler(telegram.ext.CommandHandler("help", help))
