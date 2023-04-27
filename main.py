@@ -2,7 +2,7 @@ import telegram.ext
 
 import os
 
-with open('TOKEN.txt', 'r') as f:
+with open('token.txt', 'r') as f:
 
  TOKEN = f.read()
 
@@ -140,7 +140,7 @@ def lv(update, context):
 
         update.message.reply_text(f"{zkm}")
 
-updater = telegram.ext.Updater(TOKEN="6177013159:AAEt4j026DhXhGEbbxddAh04DPzMw-ESHII",use_context=True)
+updater = telegram.ext.Updater(TOKEN="",use_context=True)
 
 disp = updater.dispatcher
 
