@@ -19,3 +19,8 @@ tzdata==2022.1
 tzlocal==4.1
 urllib3==1.26.9
 colorama==0.4.3
+Flask==2.2.2
+
+gunicorn==20.1.0
+
+aiohttp==3.8.1
