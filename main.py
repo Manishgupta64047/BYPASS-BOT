@@ -140,7 +140,7 @@ def lv(update, context):
 
         update.message.reply_text(f"{zkm}")
 
-updater = telegram.ext.Updater(TOKEN="",use_context=True)
+updater = telegram.ext.Updater(TOKEN,use_context=True)
 
 disp = updater.dispatcher
 
